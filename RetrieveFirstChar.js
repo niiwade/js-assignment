@@ -10,8 +10,8 @@ const findIndex = (str , substring) =>{ //function takes two arguments: a string
 let string = "Hello, Prince !";
 let substring = "Prince";
 let index = findIndex(string, substring);
-console.log(index);  // Output: 7
+console.log(index);  
 
 substring = "JavaScript";
 index = findIndex(string, substring);
-console.log(index);  // Output: -1 (not found)
+console.log(index); 
